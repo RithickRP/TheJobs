@@ -1,0 +1,149 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding: 8px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.cont {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+.small-container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #222222;
+  padding: 3px 18px 13px 18px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem 0 rgba(168, 180, 194, 0.37);
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #585858;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
